@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start":"node server.js",
-    "server": "nodemon server.js --ignore client",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently --kill-others-on-fail \" npm start\" \" npm run client\""
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ../frontend"
   },
   "author": "",
   "license": "ISC",

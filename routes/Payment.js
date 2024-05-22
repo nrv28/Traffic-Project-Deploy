@@ -44,7 +44,7 @@ router.post('/paymentverification', async (req, res) => {
 
         try {
           // Delete the violation from MongoDB
-          // await ViolationData.findOneAndDelete({OffenseID : OffenseID});
+          await ViolationData.findOneAndDelete({OffenseID : OffenseID});
           console.log(`Violation with ID ${OffenseID} has been deleted`);
     
           res.json({ status: 'ok' });

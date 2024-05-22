@@ -9,26 +9,26 @@ const fs = require('fs');
 //------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Route to handle the MailandUpload GET request
-router.get('/Mail',(req, res) => {
+router.get('/Mail', (req, res) => {
     const detectedText = req.query.detectedText;
     const image2FullPath = req.query.image2FullPath;
-    const username = req.query.Email;           
-    const challanlocation=req.query.challanlocation;
-    const offense=req.query.offense;
-    const dateOfOffense=req.query.dateOfOffense;
-    const fineAmount=req.query.fineAmount;
+    const username = req.query.Email;
+    const challanlocation = req.query.challanlocation;
+    const offense = req.query.offense;
+    const dateOfOffense = req.query.dateOfOffense;
+    const fineAmount = req.query.fineAmount;
 
-
-     // Read the image file
-     fs.readFile(image2FullPath, (err, imageData) => {
+    
+    // Read the image file
+    fs.readFile(image2FullPath, (err, imageData) => {
         if (err) {
             console.error('Error reading image file:', err);
             return res.status(500).send('Error reading image file');
         }
 
         const base64Image = imageData.toString('base64');
-    
-            // Create a transporter object
+
+        // Create a transporter object
         const transporter = nodemailer.createTransport({
             service: "gmail",
             host: "smtp.gmail.com",
@@ -45,7 +45,7 @@ router.get('/Mail',(req, res) => {
                 name: 'Patna Traffic Police',
                 address: "nirjaykumargupta2017@gmail.com"
             },
-            to: [username], // replace with the recipient's email address
+            to: username, // Use username directly here
             subject: "Traffic Violation Notice - Fine for Violating Traffic Rules",
             text: `
             Dear Citizen,
@@ -66,7 +66,7 @@ router.get('/Mail',(req, res) => {
             Sincerely,
             Patna Traffic Police
         
-            Payhere : patnapolice@icicigateway
+            Payhere : https://traffic-project-deploy.onrender.com
             `,
             html: `
             <p>Dear Citizen,</p>
@@ -87,7 +87,7 @@ router.get('/Mail',(req, res) => {
             <p>Sincerely,<br>
             Patna Traffic Police</p>
         
-            <p>Payhere : patnapolice.gov.bih.nic@icicigateway</p>
+            <p><strong>Payhere</strong> : https://traffic-project-deploy.onrender.com</p>
             `,
             attachments: [
                 {
@@ -103,16 +103,18 @@ router.get('/Mail',(req, res) => {
             try {
                 await transporter.sendMail(mailOptions);
                 console.log("Email sent");
-            
+                res.status(200).send('Email sent successfully');
             } catch (error) {
                 console.error("Error sending email:", error);
+                res.status(500).send('Error sending email');
             }
         };
 
         sendMail(mailOptions);
 
-  });
+    });
 });
+
 
 
 router.post('/paymentmail',(req, res) => {

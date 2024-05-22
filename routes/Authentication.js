@@ -34,7 +34,7 @@ router.get('/checkauthorization', async (req, res) => {
 
 
 // Route to handle the login POST request
-router.post('/Authentication', async (req, res) => {
+router.post('/loginroute', async (req, res) => {
     const { email, password } = req.body;
 
     try {
@@ -65,6 +65,42 @@ router.post('/Authentication', async (req, res) => {
         res.status(500).json({ message: 'Server error' });
     }
 });
+
+
+// Route to handle the login POST request
+router.post('/adminlogin', async (req, res) => {
+    const { email, password } = req.body;
+
+    try {
+        // Check if user exists
+        const user = await Authorization.findOne({ Email: email });
+        console.log(user);
+        if (!user) {
+            return res.status(400).json({ message: 'Invalid Authorization Email' });
+        }
+
+        // Check if password is correct
+        if (password !== user.Password) { // Direct comparison
+            return res.status(400).json({ message: 'Invalid Authorization password' });
+        }
+
+        // Store user information in session
+        req.session.user = {
+            email: user.Email,
+            name: "Administrator",
+            address: "Traffic Police",
+            phone: "100",
+            vehiclenumber: 'All India Permit',
+            regdate: '20-12-2007'
+        };
+
+        res.json({ message: 'Authorization Login successful', user: req.session.user });
+    } catch (error) {
+        res.status(500).json({ message: 'Server error' });
+    }
+});
+
+
 
 // Route to get the current logged-in user's details
 router.get('/giveuserdata', async (req, res) => {
