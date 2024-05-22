@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
@@ -8,14 +7,14 @@ const session = require('express-session');
 const app = express();
 //--------------------------------------------------------------------------------------------------------------------------------------
 
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
-
-const __dirname = dirname(fileURLToPath(import.meta.url))
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // only when ready to deploy
-app.use(express.static(path.resolve(__dirname, './client/build')))
+app.use(express.static(path.join(__dirname, './client/build')));
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 //Env and Database Coonection
@@ -55,7 +54,7 @@ app.use(cors(corsOptions));
 
 // only when ready to deploy
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './client/build', 'index.html'))
+    res.sendFile(path.join(__dirname, './client/build', 'index.html'))
 })
 
 app.use('/',Ml_link);
