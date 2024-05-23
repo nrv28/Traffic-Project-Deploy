@@ -74,7 +74,6 @@ router.post('/adminlogin', async (req, res) => {
     try {
         // Check if user exists
         const user = await Authorization.findOne({ Email: email });
-        console.log(user);
         if (!user) {
             return res.status(400).json({ message: 'Invalid Authorization Email' });
         }
