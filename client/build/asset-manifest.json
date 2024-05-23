@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa56daac.css",
-    "main.js": "/static/js/main.147f4cb0.js",
+    "main.css": "/static/css/main.03887549.css",
+    "main.js": "/static/js/main.2f4b4268.js",
     "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.28c26a580e9f4d26f48d.jpg",
     "static/media/s1.jpg": "/static/media/s1.47d463b2153e7d5bf6d0.jpg",
@@ -11,21 +11,21 @@
     "static/media/seatbelt.jpg": "/static/media/seatbelt.96a42ebd2187bd614e46.jpg",
     "static/media/s2.jpg": "/static/media/s2.eb6af12efcf9c8999647.jpg",
     "static/media/s4.jpg": "/static/media/s4.de0524af8735843f4c10.jpg",
+    "static/media/biharpolice.jpg": "/static/media/biharpolice.722152467f21b9a5b1f2.jpg",
     "static/media/safetybanner.jpg": "/static/media/safetybanner.cc0210613ff74553d9d4.jpg",
     "static/media/s25.jpg": "/static/media/s25.de63de53d4611f1a69a6.jpg",
     "static/media/s26.jpg": "/static/media/s26.d90a1632f6faa86d96f0.jpg",
     "static/media/s22.png": "/static/media/s22.6db4b3e765981f5b8fd5.png",
     "static/media/mobile-phone.avif": "/static/media/mobile-phone.b1e7bb24ae3f912995a8.avif",
-    "static/media/logo.avif": "/static/media/logo.67142fd9bb57d62c5836.avif",
     "static/media/dummy-icon.png": "/static/media/dummy-icon.9a5b248c2edea435f7e2.png",
     "static/media/s24.jpg": "/static/media/s24.ffb98680a48e2a7ed7a2.jpg",
     "index.html": "/index.html",
-    "main.aa56daac.css.map": "/static/css/main.aa56daac.css.map",
-    "main.147f4cb0.js.map": "/static/js/main.147f4cb0.js.map",
+    "main.03887549.css.map": "/static/css/main.03887549.css.map",
+    "main.2f4b4268.js.map": "/static/js/main.2f4b4268.js.map",
     "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa56daac.css",
-    "static/js/main.147f4cb0.js"
+    "static/css/main.03887549.css",
+    "static/js/main.2f4b4268.js"
   ]
 }
