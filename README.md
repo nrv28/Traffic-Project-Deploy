@@ -70,43 +70,11 @@ HTTP error 401 for prompt `features`
     ├── README.md
     ├── client
     │   └── build
-    │       ├── asset-manifest.json
-    │       ├── favicon.ico
     │       ├── index.html
-    │       ├── logo192.png
-    │       ├── logo512.png
-    │       ├── manifest.json
-    │       ├── robots.txt
     │       └── static
     │           ├── css
-    │           │   ├── main.03887549.css
-    │           │   ├── main.03887549.css.map
-    │           │   ├── main.9ff2c747.css
-    │           │   ├── main.9ff2c747.css.map
-    │           │   ├── main.aa56daac.css
-    │           │   ├── main.aa56daac.css.map
-    │           │   ├── main.d0370fce.css
-    │           │   └── main.d0370fce.css.map
     │           ├── js
     │           └── media
-    │               ├── banner.28c26a580e9f4d26f48d.jpg
-    │               ├── biharpolice.722152467f21b9a5b1f2.jpg
-    │               ├── dummy-icon.9a5b248c2edea435f7e2.png
-    │               ├── logo.67142fd9bb57d62c5836.avif
-    │               ├── mobile-phone.b1e7bb24ae3f912995a8.avif
-    │               ├── pedestrian.315462c43d5fa0ae9264.jpg
-    │               ├── s1.47d463b2153e7d5bf6d0.jpg
-    │               ├── s2.eb6af12efcf9c8999647.jpg
-    │               ├── s21.32fe76de968dfe1d2f97.jpg
-    │               ├── s22.6db4b3e765981f5b8fd5.png
-    │               ├── s24.ffb98680a48e2a7ed7a2.jpg
-    │               ├── s25.de63de53d4611f1a69a6.jpg
-    │               ├── s26.d90a1632f6faa86d96f0.jpg
-    │               ├── s3.cb493680d1d789e1bc00.jpg
-    │               ├── s4.de0524af8735843f4c10.jpg
-    │               ├── safetybanner.cc0210613ff74553d9d4.jpg
-    │               ├── seatbelt.96a42ebd2187bd614e46.jpg
-    │               └── user-icon.557587208eb9e232f2ca.png
     ├── config
     │   ├── db.js
     │   └── razorpay.js
