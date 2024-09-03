@@ -106,6 +106,37 @@ HTTP error 401 for prompt `features`
 
 ---
 
+
+##  Login
+
+<p align="center">
+  <img src="https://dummyimage.com/600x400/000/fff&text=Login+Image" alt="Login Image" />
+</p>
+
+Description of the login functionality goes here.
+
+---
+
+##  Vehicle Registration
+
+<p align="center">
+  <img src="https://drive.google.com/drive/u/0/folders/1s4QIO-HeUmWNIlmRrVHFbot8l21he1UY" alt="Vehicle Registration Image" />
+</p>
+
+Description of the vehicle registration process goes here.
+
+---
+
+##  e-Challan
+
+<p align="center">
+  <img src="https://dummyimage.com/600x400/000/fff&text=e-Challan+Image" alt="e-Challan Image" />
+</p>
+
+Description of the e-Challan system goes here.
+
+
+
 ##  Modules
 
 <details closed><summary>.</summary>
