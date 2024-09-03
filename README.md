@@ -104,20 +104,25 @@ HTTP error 401 for prompt `features`
 
 ```
 
----
-
-
-##  Login
+##  Homepage
 
 <p align="center">
-  <img src="https://dummyimage.com/600x400/000/fff&text=Login+Image" alt="Login Image" />
+  <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Login Image" />
+</p>
+
+---
+
+##  Login and Signup
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1s4QIO-HeUmWNIlmRrVHFbot8l21he1UY" alt="Login Image" />
 </p>
 
 Description of the login functionality goes here.
 
 ---
 
-##  Vehicle Registration
+##  Vehicle Registration Page
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Vehicle Registration Image" />
@@ -127,10 +132,10 @@ Description of the vehicle registration process goes here.
 
 ---
 
-##  e-Challan
+##  E-Challan Page
 
 <p align="center">
-  <img src="https://dummyimage.com/600x400/000/fff&text=e-Challan+Image" alt="e-Challan Image" />
+  <img src="https://drive.google.com/uc?export=view&id=1H90gZCGgbGHxZ4qnPGVeIIYwiK9CgPyv" alt="e-Challan Image" />
 </p>
 
 Description of the e-Challan system goes here.
