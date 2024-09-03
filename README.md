@@ -120,7 +120,7 @@ Description of the login functionality goes here.
 ##  Vehicle Registration
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q/view?usp=sharing" alt="Vehicle Registration Image" />
+  <img src="https://drive.google.com/file/d/1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q/view" alt="Vehicle Registration Image" />
 </p>
 
 Description of the vehicle registration process goes here.
