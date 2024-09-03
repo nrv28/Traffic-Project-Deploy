@@ -4,6 +4,12 @@
 <p align="center">
     <h1 align="center">TRAFFIC-PROJECT</h1>
 </p>
+
+
+## Project Video
+
+[![Traffic Project Video](https://img.youtube.com/vi/Y2NO70GMxb4/0.jpg)](https://www.youtube.com/watch?v=Y2NO70GMxb4)
+
 <p align="center">
     <em>HTTP error 401 for prompt `slogan`</em>
 </p>
