@@ -120,8 +120,8 @@ HTTP error 401 for prompt `features`
     </td>
   </tr>
   <tr>
-    <td align="center">Description of the homepage goes here.</td>
-    <td align="center">Description of the login functionality goes here.</td>
+<!--     <td align="center">Description of the homepage goes here.</td>
+    <td align="center">Description of the login functionality goes here.</td> -->
   </tr>
 </table>
 
@@ -143,8 +143,8 @@ HTTP error 401 for prompt `features`
     </td>
   </tr>
   <tr>
-    <td align="center">Description of the vehicle registration process goes here.</td>
-    <td align="center">Description of the e-Challan system goes here.</td>
+<!--     <td align="center">Description of the vehicle registration process goes here.</td>
+    <td align="center">Description of the e-Challan system goes here.</td> -->
   </tr>
 </table>
 
@@ -162,7 +162,7 @@ HTTP error 401 for prompt `features`
     </td>
   </tr>
   <tr>
-    <td align="center">Description of the profile page goes here.</td>
+<!--     <td align="center">Description of the profile page goes here.</td> -->
   </tr>
 </table>
 
