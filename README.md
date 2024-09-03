@@ -106,39 +106,65 @@ HTTP error 401 for prompt `features`
 
 ##  Homepage
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Login Image" />
-</p>
+<table>
+  <tr>
+    <td align="center"><strong>Homepage</strong></td>
+    <td align="center"><strong>Login and Signup</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Homepage Image" width="300" />
+    </td>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1H90gZCGgbGHxZ4qnPGVeIIYwiK9CgPyv" alt="Login Image" width="300" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Description of the homepage goes here.</td>
+    <td align="center">Description of the login functionality goes here.</td>
+  </tr>
+</table>
 
 ---
 
-##  Login and Signup
+##  Vehicle Registration and E-Challan
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1H90gZCGgbGHxZ4qnPGVeIIYwiK9CgPyv" alt="Login Image" />
-</p>
-
-Description of the login functionality goes here.
+<table>
+  <tr>
+    <td align="center"><strong>Vehicle Registration</strong></td>
+    <td align="center"><strong>E-Challan</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Vehicle Registration Image" width="300" />
+    </td>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1lkcrb88bfL_5EJMiUAXlCofzyVMwQx7K" alt="e-Challan Image" width="300" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Description of the vehicle registration process goes here.</td>
+    <td align="center">Description of the e-Challan system goes here.</td>
+  </tr>
+</table>
 
 ---
 
-##  Vehicle Registration Page
+##  Profile Page
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1DFbEuyzUDmeenOlzf9Kl-TEuephnoJ0q" alt="Vehicle Registration Image" />
-</p>
-
-Description of the vehicle registration process goes here.
-
----
-
-##  E-Challan Page
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1lkcrb88bfL_5EJMiUAXlCofzyVMwQx7K" alt="e-Challan Image" />
-</p>
-
-Description of the e-Challan system goes here.
+<table>
+  <tr>
+    <td align="center"><strong>Profile Page</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://drive.google.com/uc?export=view&id=1-mX5regTNuGpdEwIye8VsEKSV4yCUA9q" alt="Profile Page Image" width="300" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Description of the profile page goes here.</td>
+  </tr>
+</table>
 
 
 
