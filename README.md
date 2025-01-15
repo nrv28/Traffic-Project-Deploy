@@ -176,9 +176,6 @@ HTTP error 401 for prompt `features`
 | [manifest.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/manifest.json)             | HTTP error 401 for prompt `client/build/manifest.json`       |
 | [asset-manifest.json](https://github.com/nrv28/Traffic
 
-```
-
----
 
 ## Running with Docker
 
