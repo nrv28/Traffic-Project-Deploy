@@ -157,7 +157,7 @@ HTTP error 401 for prompt `features`
 
 ##  Modules
 
-<details closed><summary>.</summary>
+<details><summary>.</summary>
 
 | File                                                                                                           | Summary                                             |
 | ---                                                                                                            | ---                                                 |
