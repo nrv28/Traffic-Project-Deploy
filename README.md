@@ -157,8 +157,6 @@ HTTP error 401 for prompt `features`
 
 ##  Modules
 
-<details><summary>.</summary>
-
 | File                                                                                                           | Summary                                             |
 | ---                                                                                                            | ---                                                 |
 | [server.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/server.js)                             | HTTP error 401 for prompt `server.js`               |
@@ -166,16 +164,7 @@ HTTP error 401 for prompt `features`
 | [package.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/package.json)                       | HTTP error 401 for prompt `package.json`            |
 | [package-lock.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/package-lock.json)             | HTTP error 401 for prompt `package-lock.json`       |
 
-</details>
-
-<details><summary>client.build</summary>
-
-| File                                                                                                                | Summary                                                      |
-| ---                                                                                                                 | ---                                                          |
-| [index.html](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/index.html)                   | HTTP error 401 for prompt `client/build/index.html`          |
-| [manifest.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/manifest.json)             | HTTP error 401 for prompt `client/build/manifest.json`       |
-| [asset-manifest.json](https://github.com/nrv28/Traffic
-
+---
 
 ## Running with Docker
 
