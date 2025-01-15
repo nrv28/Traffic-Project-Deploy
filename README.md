@@ -5,7 +5,6 @@
     <h1 align="center">TRAFFIC-PROJECT</h1>
 </p>
 
-
 ## Project Video
 
 [![Traffic Project Video](https://img.youtube.com/vi/Y2NO70GMxb4/0.jpg)](https://www.youtube.com/watch?v=Y2NO70GMxb4)
@@ -43,6 +42,7 @@
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
 >   - [ Running Traffic-Project-Deploy](#-running-Traffic-Project-Deploy)
+>   - [ Running with Docker](#-running-with-docker)
 >   - [ Tests](#-tests)
 > - [ Project Roadmap](#-project-roadmap)
 > - [ Contributing](#-contributing)
@@ -119,10 +119,6 @@ HTTP error 401 for prompt `features`
       <img src="https://drive.google.com/uc?export=view&id=1H90gZCGgbGHxZ4qnPGVeIIYwiK9CgPyv" alt="Login Image" width="300" />
     </td>
   </tr>
-  <tr>
-<!--     <td align="center">Description of the homepage goes here.</td>
-    <td align="center">Description of the login functionality goes here.</td> -->
-  </tr>
 </table>
 
 ---
@@ -142,10 +138,6 @@ HTTP error 401 for prompt `features`
       <img src="https://drive.google.com/uc?export=view&id=1lkcrb88bfL_5EJMiUAXlCofzyVMwQx7K" alt="e-Challan Image" width="300" />
     </td>
   </tr>
-  <tr>
-<!--     <td align="center">Description of the vehicle registration process goes here.</td>
-    <td align="center">Description of the e-Challan system goes here.</td> -->
-  </tr>
 </table>
 
 ---
@@ -161,12 +153,7 @@ HTTP error 401 for prompt `features`
       <img src="https://drive.google.com/uc?export=view&id=1-mX5regTNuGpdEwIye8VsEKSV4yCUA9q" alt="Profile Page Image" width="300" />
     </td>
   </tr>
-  <tr>
-<!--     <td align="center">Description of the profile page goes here.</td> -->
-  </tr>
 </table>
-
-
 
 ##  Modules
 
@@ -187,147 +174,51 @@ HTTP error 401 for prompt `features`
 | ---                                                                                                                 | ---                                                          |
 | [index.html](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/index.html)                   | HTTP error 401 for prompt `client/build/index.html`          |
 | [manifest.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/manifest.json)             | HTTP error 401 for prompt `client/build/manifest.json`       |
-| [asset-manifest.json](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/asset-manifest.json) | HTTP error 401 for prompt `client/build/asset-manifest.json` |
-| [robots.txt](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/client/build/robots.txt)                   | HTTP error 401 for prompt `client/build/robots.txt`          |
+| [asset-manifest.json](https://github.com/nrv28/Traffic
 
-</details>
-
-<details closed><summary>models</summary>
-
-| File                                                                                                              | Summary                                                  |
-| ---                                                                                                               | ---                                                      |
-| [PlateDetailsSchema.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/models/PlateDetailsSchema.js) | HTTP error 401 for prompt `models/PlateDetailsSchema.js` |
-| [AuthrizationSchema.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/models/AuthrizationSchema.js) | HTTP error 401 for prompt `models/AuthrizationSchema.js` |
-| [ViolationSchema.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/models/ViolationSchema.js)       | HTTP error 401 for prompt `models/ViolationSchema.js`    |
-
-</details>
-
-<details closed><summary>routes</summary>
-
-| File                                                                                                          | Summary                                                |
-| ---                                                                                                           | ---                                                    |
-| [Ml_link.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Ml_link.js)                   | HTTP error 401 for prompt `routes/Ml_link.js`          |
-| [Payment.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Payment.js)                   | HTTP error 401 for prompt `routes/Payment.js`          |
-| [Vehicleregserver.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Vehicleregserver.js) | HTTP error 401 for prompt `routes/Vehicleregserver.js` |
-| [Upload.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Upload.js)                     | HTTP error 401 for prompt `routes/Upload.js`           |
-| [fetchviolation.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/fetchviolation.js)     | HTTP error 401 for prompt `routes/fetchviolation.js`   |
-| [Mail.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Mail.js)                         | HTTP error 401 for prompt `routes/Mail.js`             |
-| [Authentication.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/routes/Authentication.js)     | HTTP error 401 for prompt `routes/Authentication.js`   |
-
-</details>
-
-<details closed><summary>config</summary>
-
-| File                                                                                          | Summary                                        |
-| ---                                                                                           | ---                                            |
-| [db.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/config/db.js)             | HTTP error 401 for prompt `config/db.js`       |
-| [razorpay.js](https://github.com/nrv28/Traffic-Project-Deploy/blob/master/config/razorpay.js) | HTTP error 401 for prompt `config/razorpay.js` |
-
-</details>
-
----
-
-##  Getting Started
-
-***Requirements***
-
-Ensure you have the following dependencies installed on your system:
-
-* **JavaScript**: `version x.y.z`
-
-###  Installation
-
-1. Clone the Traffic-Project-Deploy repository:
-
-```sh
-git clone https://github.com/nrv28/Traffic-Project-Deploy
-```
-
-2. Change to the project directory:
-
-```sh
-cd Traffic-Project-Deploy
-```
-
-3. Install the dependencies:
-
-```sh
-npm install
-```
-
-###  Running Traffic-Project-Deploy
-
-Use the following command to run Traffic-Project-Deploy:
-
-```sh
-node app.js
-```
-
-###  Tests
-
-To execute tests, run:
-
-```sh
-npm test
 ```
 
 ---
 
-##  Project Roadmap
+## Running with Docker
 
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
+Docker makes it easy to build and deploy applications in isolated environments. Below is the guide for running this project with Docker.
 
----
+### Prerequisites
 
-##  Contributing
+1. [Docker](https://www.docker.com/) installed on your machine.
+2. Basic knowledge of Docker commands.
 
-Contributions are welcome! Here are several ways you can contribute:
+### Steps
 
-- **[Submit Pull Requests](https://github.com/nrv28/Traffic-Project-Deploy/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/nrv28/Traffic-Project-Deploy/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/nrv28/Traffic-Project-Deploy/issues)**: Submit bugs found or log feature requests for Traffic-project-deploy.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/nrv28/Traffic-Project-Deploy
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nrv28/Traffic-Project-Deploy.git
+   cd Traffic-Project-Deploy
    ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
 
-Once your PR is reviewed and approved, it will be merged into the main branch.
+2. **Build the Docker image:**
+   ```bash
+   docker build -t traffic-project .
+   ```
 
-</details>
+3. **Run the container:**
+   ```bash
+   docker run -d -p 3000:3000 --name traffic-container traffic-project
+   ```
+
+4. **Access the application:**
+   Open your browser and go to `http://localhost:3000`.
+
+5. **Stop the container (optional):**
+   ```bash
+   docker stop traffic-container
+   ```
+
+6. **Remove the container (optional):**
+   ```bash
+   docker rm traffic-container
+   ```
 
 ---
 
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
-
----
