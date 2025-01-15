@@ -168,7 +168,7 @@ HTTP error 401 for prompt `features`
 
 </details>
 
-<details closed><summary>client.build</summary>
+<details><summary>client.build</summary>
 
 | File                                                                                                                | Summary                                                      |
 | ---                                                                                                                 | ---                                                          |
